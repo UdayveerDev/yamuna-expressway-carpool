@@ -1,8 +1,9 @@
-# Installation Instructions for Yamuna Expressway Carpool
+# Installation Guide - Yamuna Expressway Carpool
 
-## Requirements
-- Node.js (v14 or later)
-- npm (v6 or later)
+## Prerequisites
+- **Node.js**: v14.x or higher
+- **NPM**: v6.x or higher
+- **MySQL**: (Ensure your local database is running)
 
 ## Steps to Set Up
 1. **Clone the repository**
