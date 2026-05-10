@@ -12,10 +12,12 @@ Creates a new carpool ride.
 **Request Body:**  
 ```json
 {
+
     "departure": "string",
     "destination": "string",
     "date": "YYYY-MM-DD",
     "seats_available": "integer"
+
 }
 ```
 
@@ -29,10 +31,12 @@ Updates details of a specific carpool ride.
 **Request Body:**  
 ```json
 {
+
     "departure": "string",
     "destination": "string",
     "date": "YYYY-MM-DD",
     "seats_available": "integer"
+
 }
 ```
 
@@ -46,4 +50,4 @@ Deletes a specific carpool ride.
 Each API response includes an `error` field when applicable, detailing the nature of the error.
 
 ### Authentication
-Some endpoints may require authentication. Ensure the user is logged in to access those endpoints.
+Some endpoints may require authentication. Ensure the user is logged in to access those endpoints.  
